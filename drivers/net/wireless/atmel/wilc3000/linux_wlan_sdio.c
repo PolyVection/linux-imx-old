@@ -26,7 +26,7 @@
 #include "linux_wlan_common.h"
 #include "at_pwr_dev.h"
 
-#define SDIO_MODALIAS "wilc_sdio"
+#define SDIO_MODALIAS "mmc0"//"wilc_sdio"
 
 struct sdio_func *local_sdio_func = NULL;
 EXPORT_SYMBOL(local_sdio_func);
